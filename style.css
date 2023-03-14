@@ -1,0 +1,48 @@
+root{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+    .loading{
+    max-width:50%;
+    line-height:1.4;
+    font-size:1.2rem;
+    font-weight: bold;
+    text-align:center;
+
+}
+.myself{
+    font-weight: normal;
+    font-size:0.9rem;
+    color: rgba(189,189,189 ,1);
+    margin:.6rem 0 2rem 0;
+    display:block;
+
+}
+.animation{
+    width:35px;
+    height:35px;
+    display:inline-block;
+    border:5px solid rgba(189,189,189,0.25);
+    box-shadow: 0 0 5px rgba(255,255,255,.3);
+    border-left-color:rgba(3,155,229,1);
+    border-top-color:rgba(3,155,229,1);
+    border-radius:50%;
+    animation:spinner 1s linear infinite;
+}
+    @keyframes spinner {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        
+    }
+
+
+   
+    
+
